@@ -19,11 +19,11 @@ def test_multiplication_of_numbers(os: str, browser: str):
 
 
 @pytest.fixture(params=['chromium', 'webkit', 'firefox'])
-def browser(request: SubRequest):
+def browser(request: SubRequest) -> str:
     return request.param
 
 
-def test_open_browser(browser: str)
+def test_open_browser(browser: str):
     print(f'Running test on browse: {browser}')
 
 

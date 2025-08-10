@@ -1,7 +1,7 @@
 from playwright.sync_api import Page, expect
 from pages.base_page import BasePage
-from navigation.navbar_component import NavbarComponent
-from navigation.sidebar_component import SidebarComponent
+from components.navigation.navbar_component import NavbarComponent
+from components.navigation.sidebar_component import SidebarComponent
 
 
 class DashboardPage(BasePage):

@@ -1,4 +1,5 @@
-propertyimport allure
+from typing import Pattern
+import allure
 from playwright.sync_api import Page, expect
 
 

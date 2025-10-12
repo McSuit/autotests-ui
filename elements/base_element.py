@@ -1,6 +1,5 @@
 import allure
 from playwright.sync_api import Page, Locator, expect
-
 from tools.logger import get_logger  # Импортируем get_logger
 
 logger = get_logger("BASE_ELEMENT")  # Инициализируем logger

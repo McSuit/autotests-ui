@@ -1,2 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","2265","test_edit_course","tests.courses","Sun Sep 14 18:39:49 MSK 2025","passed","Sun Sep 14 18:39:51 MSK 2025","TestCourses","test_courses","",""

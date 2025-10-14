@@ -39,4 +39,3 @@ def page_with_state(initialize_browser_state, request: SubRequest, playwright: P
         browser_type=request.param,
         storage_state=settings.browser_state_file  # Используем settings.browser_state_file
     )
-    #
